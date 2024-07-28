@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <Folder Include="DataAccess\" />
-    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaecPin.Common\WaecPin.Common.csproj" />
   </ItemGroup>
 
 </Project>
